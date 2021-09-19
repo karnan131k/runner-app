@@ -32,7 +32,7 @@ $ vendor/bin/sail bash
 8. Copy .env File
 $ cp .env.example .env
 
-9. Open .env to match the following line:
+9. Open project in any editor and Open .env to match the following line:
 FROM: DB_HOST=127.0.0.1
 TO: DB_HOST=mysql
 
