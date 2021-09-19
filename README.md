@@ -3,6 +3,7 @@ Laravel Sail App After Cloning From Github
 Follow these steps for a Laravel repository with Sail after cloning from Github
 
 1. Clone your repository, example:
+------------------------------------
 $ git clone https://github.com/karnan131k/runner-app.git
 
 2. Change directory into the newly created app/project.
