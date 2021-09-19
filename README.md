@@ -13,7 +13,7 @@ $ docker run --rm -v $(pwd):/opt -w /opt laravelsail/php80-composer:latest compo
 
     NOTE: This may take a while if this is the first time installing this as a container.
 
-4. Set the proper permissions to the project files.
+4. Set the proper permissions to the project files. and give your use rpassword
 $ sudo chown -R $USER: .
 
 5. Run the servers with Sail
