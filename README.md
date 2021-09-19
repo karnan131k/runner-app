@@ -6,7 +6,7 @@ Follow these steps for a Laravel repository with Sail after cloning from Github
 $ git clone https://github.com/karnan131k/runner-app.git
 
 2. Change directory into the newly created app/project.
-$ cd laravel-backend-api
+$ cd runner-app
 
 3. Install all required dependencies
 $ docker run --rm -v $(pwd):/opt -w /opt laravelsail/php80-composer:latest composer install
