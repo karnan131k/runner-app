@@ -22,18 +22,8 @@ class RunnerResource extends JsonResource
 
         // get form last runs data from runner data
         $formdataRunnerLastData = $this->runnersLastHistory->map(function($data){
-            return[
-                "id"                => $data->id,
-                "runner_id"         => $data->runner_id,
-                "score"             => $data->score,
-                "place"             => $data->place,
-                "pariticipate_at"   => date('d-M-y',strtotime($data->pariticipate_at)),
-                "condition"         => $data->condition,
-                "price"             => $data->price,
-            ];
+            return app()->make('textMonthDateFormat')->runnerFormat($data);
         });
-        
-
         /*
         return[
             'runner_name'=>$this->name,
