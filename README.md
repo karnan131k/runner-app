@@ -45,3 +45,12 @@ $ php artisan migrate:fresh --seed
 12. You can now open your application with your browser: http://localhost and you can check apis in postman
      http://localhost/api/v1/runner/1/form-data
      http://localhost/api/user
+
+----------------------------------------------------------------------------------------------------
+Unit/Feature Testing
+
+Install phpunit
+$ sudo apt-get install phpunit
+-----------------------------------------------------------------------------------------------------
+Test all testcases
+$ vendor/bin/phpunit
